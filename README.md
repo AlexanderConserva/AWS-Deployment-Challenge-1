@@ -43,6 +43,7 @@ Overall, boto3 reduces development time because you don't need to reimplement Si
 I only have one critique of boto3 and that is when i tried to run my ec2 instance creator the next day and i changed my credentials in my .env file i got a error but it wasen't clear why but when I ran my other script of part 1 it told me that my credentials were invalid.
 
 ![Part 2](images/part2-2.png)
+![Part 2](images/part2-3.png)
 
 ## Extra Points
 ![Part 2](images/part2-1.png)
