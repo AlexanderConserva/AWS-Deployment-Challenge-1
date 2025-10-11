@@ -6,16 +6,16 @@ For part 1 I asked AI to generate me the script but there where some things that
 1.	Create a Canonical Request<br>
 o	Define HTTP method, URI, headers and a hash of the payload.<br>
 o	Example in code: canonical_request variable.
-2.	Create a String to Sign
-o	Combine hashing algorithm, request date, credential scope and hashed canonical request.
+2.	Create a String to Sign<br>
+o	Combine hashing algorithm, request date, credential scope and hashed canonical request.<br>
 o	Example in code: string_to_sign.
-3.	Calculate the Signature
-o	Take the signing key from the secret key using HMAC-SHA256 over date, region and service.
+3.	Calculate the Signature<br>
+o	Take the signing key from the secret key using HMAC-SHA256 over date, region and service.<br>
 o	Example in code: get_signature_key().
-4.	Add Authorization Header
-o	Construct the Authorization header with signed headers and the signature.
+4.	Add Authorization Header<br>
+o	Construct the Authorization header with signed headers and the signature.<br>
 o	Example in code: authorization_header.
-5.	Send the Request
+5.	Send the Request<br>
 o	Use requests.get() with the signed headers.
 
 
